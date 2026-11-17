@@ -4,8 +4,8 @@ from flask import Flask
 import os
 import threading
 
-# Токен нового бота Игорь | Комфорт-авто
-TOKEN = "9276621575:AAHXOXyMmEczwE96mMXGA1WOysHzm38jGq4"
+# Токен твоего родного бота
+TOKEN = "9294883225:AAE9HC5YvrO6DI3RwrfvnawY9TymJuOWty8"
 bot = telebot.TeleBot(TOKEN)
 
 # Инициализация Flask-сервера для работы 24/7 на Render
@@ -94,4 +94,7 @@ def callback_query(call):
             call.message.chat.id,
             "⭐ **Информация о сервисе:**\n\n"
             "• Водитель: Игорь\n"
-            "
+            "• Стаж: 15 лет за рулем\n"
+            "• Автомобиль: Hyundai Sonata New Rise (серебристый, госномер **08 KG 744 DJ**)\n"
+            "• Чистый и ухоженный салон, аккуратное вождение, пунктуальность.\n\n"
+            "🛡 *Безопасность и
